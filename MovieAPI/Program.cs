@@ -52,6 +52,7 @@ app.MapPost("/AddMovie", async (MovieDbContext db, Movie movie) =>
 .WithDescription("Add a new movie to database");
 
 
+
 app.MapPost("/AddCategory", async (MovieDbContext db, Category category) =>
 {
     await db.Categories.AddAsync(category);
