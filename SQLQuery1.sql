@@ -24,6 +24,7 @@ INSERT INTO Categories (CategoryName) VALUES ('Drama');
 INSERT INTO Categories (CategoryName) VALUES ('Horror');
 INSERT INTO Categories (CategoryName) VALUES ('Sci-Fi');
 
+
 INSERT INTO Movies (Title, ReleaseYear, Director, Description, Rating, CategoryId) 
 VALUES 
 ('Die Hard', 1988, 'John McTiernan', 'NYPD officer tries to save his wife and others taken hostage by German terrorists.', 8.2, 1),
